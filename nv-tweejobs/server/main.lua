@@ -66,7 +66,7 @@ function SendDiscordWebhook(source, job1, job1_grade, job2, job2_grade, color)
 			  {
 				  ["color"] = color,
 				  ["title"] = GetPlayerName(source)..', SteamID: '..xPlayer.getIdentifier(), -- Maybye it us better to replace by xPlayer.getIdentifier() ,  I don't know :D Change by yourself, if you want
-				  ["description"] = 'Deze speler is van baan veranderd' **FROM**: '..job1..' with grade: '..job1_grade..' **TO**: '..job2.. ' with grade '..job2_grade,
+				  ["description"] = 'Deze speler is van baan veranderd **FROM**: '..job1..' with grade: '..job1_grade..' **TO**: '..job2.. ' with grade '..job2_grade,
 				  ["footer"] = {
 					  ["text"] = 'nv-tweejobs, baan veranderen met commando /baan2 '..os.date("%Y/%m/%d %X"),
 				  },
