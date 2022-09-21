@@ -54,7 +54,7 @@ AddEventHandler('nv-tweejobs:setSecondJob', function(job1, job1_grade, job2, job
                 DropPlayer(_source, 'Cheater, misbruik van jobgebeurtenissen instellen')
             end
         else
-            print('Speler met ID'..xPlayer.identifier..' had problemen met het veranderen van baan, hij is het meest van plan om vals te spelen'o)
+            print('Speler met ID'..xPlayer.identifier..' had problemen met het veranderen van baan, hij is het meest van plan om vals te spelen')
         end
     end)
 
